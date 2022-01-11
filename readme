@@ -1,4 +1,5 @@
-Input requirements:
+
+Input requirements (with the 1kg data as the example):
    1kg imputed
    In plink ped/map format
      Extract the variants listed in the file ‘snp_list.txt’ the ‘tables’ directory
@@ -14,3 +15,6 @@ Package requirements:
 Python3 calculate.py -p <plink file prefix> -t <path to all the snp tables> -o <output file>
 Given plink file set to_check_grs.ped and to_check_grs.map: to calculate the GRS score
 Python3 calculate.py -p to_check_grs -t ./tables/ -o score.txt
+
+
+## The TOPMed tables should be used as decribed in this article (https://pubmed.ncbi.nlm.nih.gov/34997821/).
