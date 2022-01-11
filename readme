@@ -1,0 +1,16 @@
+Input requirements:
+   1kg imputed
+   In plink ped/map format
+     Extract the variants listed in the file ‘snp_list.txt’ the ‘tables’ directory
+  	This step is skippable but the calculation will take longer
+     Should contain all of the SNPs listed in the file ‘snp_list.txt’ the ‘tables’ directory
+
+Running the program:
+Package requirements:
+   Pandas, numpy
+   Python 3.9
+      Developed with python 3.9 
+   The code is really simple: you can potentially replace the pandas and numpy requirements with your own code
+Python3 calculate.py -p <plink file prefix> -t <path to all the snp tables> -o <output file>
+Given plink file set to_check_grs.ped and to_check_grs.map: to calculate the GRS score
+Python3 calculate.py -p to_check_grs -t ./tables/ -o score.txt
