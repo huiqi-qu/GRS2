@@ -18,3 +18,4 @@ Python3 calculate.py -p to_check_grs -t ./tables/ -o score.txt
 
 
 ## The TOPMed tables should be used as decribed in this article (https://pubmed.ncbi.nlm.nih.gov/34997821/).
+## The previous repository link https://github.com/jingcqu/GRS2 has now been moved to here.
