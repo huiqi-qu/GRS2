@@ -12,9 +12,9 @@ Package requirements:
    Python 3.9
       Developed with python 3.9 
    The code is really simple: you can potentially replace the pandas and numpy requirements with your own code
-Python3 calculate.py -p <plink file prefix> -t <path to all the snp tables> -o <output file>
+python3 calculate.py -p <plink file prefix> -t <path to all the snp tables> -o <output file>
 Given plink file set to_check_grs.ped and to_check_grs.map: to calculate the GRS score
-Python3 calculate.py -p to_check_grs -t ./tables/ -o score.txt
+python3 calculate.py -p to_check_grs -t ./tables/ -o score.txt
 
 
 ## The TOPMed tables should be used as decribed in this article (https://pubmed.ncbi.nlm.nih.gov/34997821/).
