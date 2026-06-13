@@ -16,6 +16,8 @@ python3 calculate.py -p <plink file prefix> -t <path to all the snp tables> -o <
 Given plink file set to_check_grs.ped and to_check_grs.map: to calculate the GRS score
 python3 calculate.py -p to_check_grs -t ./tables/ -o score.txt
 
+To include the 4 Afr SNPs in GRS2', use the `-aa` flag:
+python3 calculate.py -p to_check_grs -t ./tables/ -o score.withAfr.txt -aa
 
 ## The TOPMed tables should be used as decribed in this article (https://pubmed.ncbi.nlm.nih.gov/34997821/).
 ## The previous repository link https://github.com/jingcqu/GRS2 has now been moved to here.
